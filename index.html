@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Имя Автора">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Интернет-магазин высококачественной мебели">
+    <meta name="keywords"
+        content="Мебель, свет, мягкая мебель, хранилище, интрерьер, дизайн, стильная мебель, эргономичная мебель">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Drile</title>
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <h1 class="logo">Drile</h1>
+        </a>
+        <nav>
+            <ul class="menu animate__animated" id="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#bestsellers">Магазин</a></li>
+                <li><a href="#bestsellers">Товары</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">О Нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="shop-icons">
+            <a href="#"><img src="img/search.svg" alt=""></a>
+            <div class="cart-icon">
+                <a href="javascript:void(0)" id="openCart"><img src="img/cart.svg" alt=""></a>
+                <span id="cart-counter">0</span>
+            </div>
+            <a href="#"><img src="img/person.svg" alt="" id="login"></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="slide">
+                <div class="slide-content">
+                    <img src="img/slider1.jpg" alt="">
+                    <div class="present">
+                        <h2>Приготовьтесь к нашим стильным креслам</h2>
+                        <button class="buy">КУПИТЬ СЕЙЧАС</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <img src="img/slider2.jpg" alt="">
+                    <div class="present">
+                        <h2>Создайте стильный интерьер своей мечты</h2>
+                        <button class="buy">КУПИТЬ СЕЙЧАС</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bestsellers" id="bestsellers">
+            <h2>Бестселлеры</h2>
+            <div class="shop-cards">
+                <div class="shop-card">
+                    <img src="img/suspension.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Винтажная подвеска</h4>
+                        <p class="price">₽6.499</p>
+                    </div>
+                    <div class="sale">
+                        <h5>HOT</h5>
+                        <h5>-5%</h5>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <img src="img/klosh.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Настольные часы Клош</h4>
+                        <p class="price">₽7.999</p>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <img src="img/dining-chair.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Обеденный стул Арне</h4>
+                        <p class="price">₽28.700</p>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <img src="img/wall-clock.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Настенные часы Клош</h4>
+                        <p class="price">₽6.500</p>
+                    </div>
+                    <div class="sale">
+                        <h5>HOT</h5>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card full-width">
+                    <img src="img/modern-chair.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Современное кресло</h4>
+                        <p class="price">₽6.500</p>
+                    </div>
+                    <div class="sale">
+                        <h5>HOT</h5>
+                        <h5>-20%</h5>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card full-width">
+                    <img src="img/vipp.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Подушка из шерсти Випп</h4>
+                        <p class="price">₽8.000</p>
+                    </div>
+                    <div class="sale">
+                        <h5>HOT</h5>
+                        <h5>-20%</h5>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+                <div class="shop-card full-width">
+                    <img src="img/storage.png" alt="Люстра">
+                    <div class="desc">
+                        <h4>Современное хранение</h4>
+                        <p class="price">₽40.000</p>
+                    </div>
+                    <div class="sale">
+                        <h5>HOT</h5>
+                        <h5>-20%</h5>
+                    </div>
+                    <div class="card-shop-items">
+                        <a href="#"><img src="img/update.svg" alt=""></a>
+                        <a href="#"><img src="img/favorite.svg" alt=""></a>
+                        <a href="javascript:void(0)"><img src="img/cart-shop.svg" alt="" class="add-to-cart"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="deal-of-the-week">
+            <div class="grey-block">
+                <div class="active-block">
+                    <img src="img/sofa.png" alt="" width="356" height="227">
+                </div>
+                <div class="deal">
+                    <button class="blueBtn">ПРЕДЛОЖЕНИЕ НЕДЕЛИ</button>
+                    <p>от <span>₽8.000</span></p>
+                    <p>Разнообразие высококачественной мебели поможет воплотить ваши дизайнерские идеи в реальность.
+                        Обновите дом с помощью элегантных диванов, эргономичных столов, и многого другого. </p>
+                    <button class="buy">КУПИТЬ СЕЙЧАС</button>
+                    <div class="deal-gallery">
+                        <div class="gallery-item">
+                            <img src="img/clock-week.png" alt="">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/modern-chair.png" alt="" width="47" height="65">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/storage.png" alt="" width="48" height="53">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/suspension.png" alt="" width="27" height="53">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about">
+            <h2>О Нас</h2>
+            <div class="about-block">
+                <div class="about-desc">
+                    <h3>От студии в Сибири до глобального бренда с более 400 торговых точек</h3>
+                    <p>Когда мы начинали, идея была проста. Сделать высококачественную мебель доступной для массового
+                        потребителя. </p>
+                    <p>Мебель и домашняя утварь ручной работы, сделанная с любовью, - это то, чем мы живем, дышим и
+                        проектируем, поэтому наш бутик в стал очагом сообщества дизайнеров интерьера.</p>
+                    <button class="blueBtn" id="openModalButton">СВЯЗАТЬСЯ С НАМИ</button>
+                </div>
+                <img src="img/about-us.jpg" alt="">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">
+            <h1 class="logo">Drile</h1>
+        </a>
+        <div class="footer-container">
+            <div class="about-us">
+                <h4>О НАС</h4>
+                <p>О Нас</p>
+                <p>Связаться с нами</p>
+                <p>Политика конфиденциальности</p>
+                <p>Условия предоставления услуг</p>
+            </div>
+            <div class="company">
+                <h4>КОМПАНИЯ</h4>
+                <p>Исследуйте мир</p>
+                <p>Популярные видео</p>
+                <p>Забронируйте поездку</p>
+                <p>Посетите галерею</p>
+            </div>
+            <div class="follow-us">
+                <h4>СЛЕДИТЕ ЗА НАМИ</h4>
+                <div class="facebook">
+                    <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><img src="img/twitter.svg" alt=""></a>
+                    <a href="#">
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><img src="img/instagram.svg" alt=""></a>
+                    <a href="#">
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>© Copyright 2023 | drile | Все права защищены.</p>
+    </div>
+    <!-- Модальное окно -->
+    <div class="modal animate__animated" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Связаться с нами</h2>
+            <form id="form">
+                <label>Имя</label>
+                <input type="text" placeholder="Введите ваше имя" required>
+
+                <label>E-mail</label>
+                <input type="email" placeholder="Введите ваш email" required>
+
+                <label>Сообщение</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Введите текст вашего сообщения"
+                    required></textarea>
+                <button class="blueBtn" id="submitButton" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <!-- Модальное окно успеха при отправке формы -->
+    <div id="succes">
+        <h2>Ваша заявка успешно отправлена</h2>
+        <p>Мы свяжемся с вами в течение часа</p>
+    </div>
+    <!-- Окно корзины -->
+    <div id="cart" class="animate__animated">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <span id="closeBtn">&times;</span>
+        </div>
+        <div id="cart-items-container"></div>
+        <div id="cart-total"></div>
+        <button id="clear-cart-btn" class="buy">Очистить корзину</button>
+    </div>
+
+    <div id="login-modal" class="login-modal animate__animated">
+        <div class="login-modal-content">
+            <div class="login-modal-header">
+                <span class="close-login-modal" onclick="closeLoginModal()">&times;</span>
+            </div>
+            <div class="login-modal-header-logo">
+                <h1 class="logo">Drile</h1>
+                <p>Вход в личный кабинет</p>
+            </div>
+            <div class="login-modal-body">
+                <form action="#" id="login-modal-form">
+                    <input type="email" class="input-login-email" placeholder="Введите свой email" required>
+                    <input type="password" class="input-login-password" placeholder="Введите ваш пароль" required>
+                    <div>
+                        Входя в систему, вы соглашаетесь c <a href="#">Privacy Policy</a> и <a href="#">Terms of Use</a>
+                    </div>
+                    <input type="submit" class="login-button buy" onclick="closeLoginModal()">
+                    <div>
+                        Еще не с нами? <a href="#">Зарегистрироваться</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
